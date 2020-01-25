@@ -1,5 +1,30 @@
+body {
+    margin: 0 0 0 0;
+}
+
 article {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#banner {
+    width: 100%;
+    background-image: url("/assets/img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#logo {
+    background-color:white;
+    -webkit-mask-image: url("assets/svg/hands_circle.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    min-height: 50vmin;
+}
+
+#logo-text {
+    color: white;
+    text-align: center;
 }
