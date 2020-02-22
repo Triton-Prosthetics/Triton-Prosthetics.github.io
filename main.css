@@ -50,7 +50,7 @@ footer {
 }
 
 .space {
-    height: calc(100% - (14px + 1 rem + 14px));
+    height: calc(14px + 1rem + 14px + 2px);
     width: 100%;
 }
 
