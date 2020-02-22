@@ -10,45 +10,58 @@ article {
 
 #banner {
     width: 100%;
+    min-height: 50vmin;
     background-image: url("/assets/img/background.jpg");
     background-size: cover;
     background-position: center;
+    display: grid;
+    grid-template-areas:
+        "top-padding top-padding top-padding top-padding"
+        "left-padding left right right-padding"
+        "bot-padding bot-padding bot-padding bot-padding";
+    grid-template-columns: auto 40vmin 40vmin auto;
+    grid-template-rows: auto 40vmin auto;
 }
 
 #logo {
-    background-color:white;
+    grid-area: left;
+    background-color: white;
     -webkit-mask-image: url("assets/svg/hands_circle.svg");
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     -webkit-mask-size: contain;
-    min-height: 50vmin;
+    max-height: 40vmin;
 }
 
 #logo-text {
+    grid-area: right;
+    margin-top: auto;
+    margin-bottom: auto;
     color: white;
-    text-align: center;
+    text-align: left;
+    font-size: 5em;
 }
 
-     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-    li {
-        float: left;
-    }
+li {
+    float: left;
+}
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-    li a:hover {
-        background-color: #111;
-    }   
+li a:hover {
+    background-color: #111;
+}   
