@@ -37,11 +37,11 @@ article {
         background-color: #333;
     }
 
-    li {
+    nav > ul > li {
         float: left;
     }
 
-    li a {
+    nav > ul > li a {
         display: block;
         color: white;
         text-align: center;
@@ -49,6 +49,6 @@ article {
         text-decoration: none;
     }
 
-    li a:hover {
+    nav > ul > li a:hover {
         background-color: #111;
     }   
