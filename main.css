@@ -49,6 +49,11 @@ footer {
     font-size: 5em;
 }
 
+.space {
+    height: calc(14px + 1 rem + 14px);
+    width: 100%;
+}
+
 nav {
    position: sticky;
    top: 0;
