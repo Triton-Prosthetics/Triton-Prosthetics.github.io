@@ -8,14 +8,20 @@ article {
     margin-right: auto;
 }
 
-footer {
-  position:fixed;
-  bottom:0;
-  left:0;
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
+  height: 2.5rem;            
 }
 
 #banner {
