@@ -9,7 +9,7 @@ article {
 }
 
 footer {
-  position:absolute;
+  position:sticky;
   width: 100%;
   background-color: black;
   color: white;
