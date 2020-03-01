@@ -8,11 +8,14 @@ article {
     margin-right: auto;
 }
 
-footer {
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
+#Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#Site-content {
+  flex: 1;
 }
 
 #banner {
@@ -49,8 +52,13 @@ footer {
     font-size: 5em;
 }
 
+.space {
+    height: calc(14px + 1rem + 14px + 2px);
+    width: 100%;
+}
+
 nav {
-   position: sticky;
+   position: fixed;
    top: 0;
    left: 0;
    width: 100%;
