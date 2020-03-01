@@ -1,2 +1,5 @@
 name: Triton Prosthetics
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
